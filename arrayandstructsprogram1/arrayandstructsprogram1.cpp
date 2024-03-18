@@ -7,7 +7,7 @@ using namespace std;
 const int numr = 5;
 const int numd = 7;
 
-// Function prototypes
+
 void readDataFromFile(string filename, string runners[], int miles[][numd]);
 void calculateStats(const string runners[], const int miles[][numd], int total[], double average[]);
 void displayResults(const string runners[], const int miles[][numd], const int total[], const double average[]);
